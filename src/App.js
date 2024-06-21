@@ -9,7 +9,7 @@ const App = () => {
   useEffect(() => {
     const delay = setInterval(
       () => {
-        setData('Hello World, From App.js...................!');
+        setData('Hello World, From App.js. Component loaded!');
         setLoading(false);
       },
       2000
